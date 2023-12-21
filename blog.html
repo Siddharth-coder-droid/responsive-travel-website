@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="container">
+            <h2>Welcome to My Blog</h2>
+            <p>Enjoy reading various articles on different Art related topics!</p>
+        </section>
+
+        <section id="posts" class="container">
+            <h2>Latest Posts</h2>
+            <!-- Insert blog posts here -->
+            <article>
+                <h3>The art experience (November 16, 2020)</h3>
+                <p>The art experience
+                    In ChildArt, some of the young people who participate in the ABCD Study describe their experiences with making art. When asked how art has helped during the COVID-19 pandemic, Emma C. says, “Art relaxes me; it helps me take my mind off things and allows me to re-center myself … this allows me to appreciate everything I see around me much more deeply.” Another participant, Kamila D., notes that “art is a way of expression and escape from negativity … art simply makes me feel better and precise about the way I see my environment.”
+                    
+                    The Fall 2020 issue of ChildArt magazine is a combined effort from the National Institutes of Health, ICAF, and the National Endowment for the Arts. The issue also features art by some of the ABCD Study participants.
+                    <br>
+                    <br>
+                <h3>When art meets science (November 16, 2020)</h3>
+                The ChildArt issue also shows how early artistic experiences can influence careers in science and health care, and how art can help us during times of stress. 
+
+Dr. Hina Inam, the first female heart surgery resident at the Aga Khan University Hospital in Karachi, Pakistan, describes how her childhood love of drawing—and attending the International Child Art Foundation’s (ICAF) World Children’s Festival in 1999—“plays an important role in who I am today.” She explains: “Art has … taught me patience, made me focus, and made me passionate. All these qualities have helped me grow in my career, too. Now my canvas is the human heart, and stitches are my paints.”                
+                
+                </p>
+                <a href="https://nida.nih.gov/research-topics/parents-educators/conversation-starters/whats-connection-between-art-and-brain-development">Read More</a>
+            </article>
+            <!-- Add more articles for other posts -->
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Please Feel Free To Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog</p>
+    </footer>
+</body>
+</html>
+
+<style>
+    /* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for main sections */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/* Basic styling for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
